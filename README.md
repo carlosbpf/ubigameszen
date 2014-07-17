@@ -2,29 +2,42 @@ Zombie Witch of 71
 ===========
 This is the game produced in the Ubiquitous Gaming Course taken at University Of Brasilia
 
-####Interface####
-It is a 2D game using scenarios from the Vila of El Chavo del Ocho. The players will controle the characters from the sitcom, and will use some of their well known behaviors.
+####Estética####
+  Jogo 2D com controles para andar pela tela.
+  Tamanho fixo de 1680 x 1050 pixels
+  Imagens de 4 personagens
+  Background de dois niveis
 
-####Mechanics####
 
-The characters will be playing and very often they will need
-help from other players, the game will only work if there are
-more then 1 player. Several scenarios require interactions, one of them is the scare paralisis , that happen if the character gets really scared (piripaque), in this scenario, the other character helps him by pressing some keys in the keyboard or going to the same "place" in the map in order to help. Other scenarios include broken paths, and the need to overcome obstacles. Once the players get to end of path and defeat the Zombie Witch of house 71, they will free the Vila.
+####Mecanica####
+
+  Os personagens deverão trabalhar juntos em algumas ocasiões para poderem
+  chegar ao objetivo, e para isso em alguns momentos o jogo solicitará que os jogadores
+  se ajudem. Assim ao fazer isso, o jogo então solicitará o controle estabelecido na maquina
+  do outro jogador, e a exibição será associada a ações realizadas pelo novo jogador.
+
 
 ####Story####
-The the Vila of El Chavo del Ocho has been under attack. In order to save the vila some of the characters need to act as a group and help each
-other, to overcome their fears and several obstacles.
 
-####Technology####
+  Apos um feitiço mal sucedido a vila esta sobre ataque do zumbi da bruxa do 71, 
+  dentro da trama os personagens passam por algumas fases e no final devem 
+  libertar a vila do controle do zumbi da bruxa. No caminho eles
+  devem desviar dos outros moradores enfetiçados pela bruxa.
 
-The concept for DSOA is 
- - Each player must have his own computer this will automaticaly be their Device and will be seen as the user itself (auto identified).
-   - Each Device will have their resources:
-	   - Keyboard 
-	      - With the services:
-	        - Request typing from user
-	   - Screen 
-	        - Draw something on the screen (x , y)
-	   - Mouse 
-	   		- get mouse click (x,y)
+####Tecnologia####
 
+ - Dois desktops.
+   - com o recurso de tela
+   - com o recurso de teclado
+
+ - Foi utilizado o uImpala
+ - Não Foi utilizado o middleware para a comunicação
+
+ ####Desafio####
+    Foco na implementação do jogo 2D
+    
+    Não atualizei o codigo com as bibliotecas,
+    causou um conflito grande e muito retrabalho.
+
+    O projeto para android falhou pq foi deixado pro 
+    ultimo momento e as configurações atuais davam erro de compilacao
